@@ -1,0 +1,83 @@
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 900px) {
+    .intro{
+        margin-left: 400px;
+        margin-right: 400px;
+    }  
+}
+
+.titre {
+    color: #1abf9d;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.titre2 {
+    color: #1abf9d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titre3 {
+    color: #1abf9d;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: justify;
+    line-height: 2;
+}
+
+.imgHome {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+.left, .right {
+    line-height: 2;
+    text-align: justify;
+}
+
+.massages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.massages p {
+    margin: 0px;
+}
+
+.left, .titre3, .besoins {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.link-massages {
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.massages__page {
+    margin-top: 100px;
+}
+
+.titre__massages {
+    color: #1abf9d;
+    text-align: center;
+}
+
+/* .container {
+	max-width: 980px;
+	margin-inline: auto;
+	padding: 100px 15px;
+} */
+/* .faq__header-title {
+	font-size: clamp(26px, 5vw, 40px);
+	color: #fff;
+	margin-bottom: 30px;
+} */
+
+.list__massages {
+    margin: 50px 100px 50px 100px;
+}
+
+.massage__detail {
+	padding: 7px 21px;
+	margin-bottom: 50px;
+	border: 1px solid #1abf9d;
+	border-radius: 8px;
+}
+.massage__label {
+	padding-block: 7px;
+	color: black;
+	cursor: pointer;
+}
+.massage__label:hover {
+	color: #1abf9d;
+}
+.faq__panel-description {
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 7px;
+}

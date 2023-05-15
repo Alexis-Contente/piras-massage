@@ -1,0 +1,41 @@
+.container__contact {
+    display: flex;
+    margin: 100px 50px 50px 50px; 
+}
+
+.img__contact {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.titre__contact {
+    font-size: 25px;
+    color: #1abf9d;
+}
+
+.follow {
+    font-size: 25px;
+    color: #1abf9d;
+}
+
+.icon__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact__tel, .contact__mail {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+footer {
+  height: 100px;
+  background-color: #1abf9d;
+  background: linear-gradient(0deg, rgba(26,191,157,1) 35%, rgba(250,250,250,1) 100%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-left: 20px;
+}
+
+.menu {
+  display: flex;
+
+}
+
+.menu__item {
+  list-style-type: none;
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
