@@ -9,7 +9,7 @@ function MassagesPage() {
                         <div className="massages__body">
 
                             <details aria-expanded="false" className="massage__detail">
-                                <summary className="massage__label">Thérapie Fascia</summary>
+                                <summary className="massage__label">Fascia thérapie</summary>
                                 <div className="faq__panel-body">
                                     <p className="faq__panel-description">Le massage fascia est basé sur une thérapie manuelle qui vise à relâcher les tensions et les douleurs dans les fascias. Il s’agit de tissus conjonctifs qui entourent toutes les structures du corps pour les soutenir, les modeler et les protéger. Dans son état normal, le fascia est détendu et étiré. Cependant, diverses causes telles qu'un traumatisme, une surcharge, une posture incorrecte ou un manque d'activité peuvent rendre le fascia plus rigide et moins souple. Cela est dû à une formation incorrecte du collagène pendant la régénération des tissus, dans laquelle les fibres de collagène se réticulent au lieu d'être parallèles les unes aux autres. J’utilise mes connaissances anatomiques pour concevoir un massage personnalisé qui détecte les blocages et les tensions du visage afin de les libérer et d'améliorer ces tissus en les oxygénant et en les relaxant. Grâce à mes massages, les fascias seront décrispés pour qu’ils retrouvent leur place, leur rythme, et laissent circuler l’énergie.</p>
                                 </div>

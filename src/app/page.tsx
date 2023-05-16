@@ -23,8 +23,9 @@ function Home() {
                                 <h2 className="title__prestations">Une thérapie adaptée pour chaque besoin</h2>
                                 <p className="text__prestations">Chaque client est unique et a des besoins spécifiques. Pour un travail de qualité, j’adapte ma thérapie au besoin de chaque client. Pour ce faire, j’utilise diverses techniques que j’ai apprises durant ma formation :
                                     <div className="list__prestations">
-                                        <p>· Massage Deep Tissue.</p>
+                                        <p>· Fascia thérapie.</p>
                                         <p>· Massage Fascia.</p>
+                                        <p>· Massage Deep Tissue.</p>
                                         <p>· Thaï massage.</p>
                                         <p>· Aroma Herba Oil.</p>
                                         <p>· Reiki.</p>

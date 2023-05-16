@@ -1,5 +1,5 @@
 .title__massages {
-	color: rgba(194,119,237,1);
+	color: rgba(148,187,233,1);
     text-align: center;
     font-weight: normal;
     font-size: 2em;
@@ -8,7 +8,7 @@
 .massage__detail {
 	padding: 7px 21px;
 	margin-bottom: 50px;
-	border: 1px solid rgba(194,119,237,1);
+	border: 1px solid rgba(238,174,202,1);
 	border-radius: 8px;
 }
 .massage__label {
@@ -18,7 +18,7 @@
 }
 
 .massage__label:hover {
-	color: rgba(194,119,237,1);
+	color: rgba(238,174,202,1);
 }
 
 .faq__panel-description {
