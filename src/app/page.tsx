@@ -1,7 +1,5 @@
 import './home.css';
 import ImgHome from '../data/pictures/massage2.jpg';
-import Header from '../components/Header/header';
-import Footer from '../components/Footer/footer'
 import Image from 'next/image';
 
 function Home() {
