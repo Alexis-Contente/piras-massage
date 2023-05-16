@@ -1,7 +1,4 @@
 import './massagesPage.css';
-import ImgMassage from '../../data/pictures/massage1.jpg'
-import Footer from '../../components/Footer/footer';
-import Header from '../../components/Header/header';
 
 function MassagesPage() {
     return (
@@ -15,11 +12,12 @@ function MassagesPage() {
                     <section className="list__massages" aria-label="Massages list">
                 
                     <div className="massages__body">
-                        <details aria-expanded="true" className="massage__detail">
-                            <summary className="massage__label">Massage Deep Tissue</summary>
+
+                        <details aria-expanded="false" className="massage__detail">
+                            <summary className="massage__label">Thérapie Fascia</summary>
                             <div className="faq__panel-body">
                                 <p className="faq__panel-description">
-                                Le massage Deep Tissue intervient au niveau des structures profondes des muscles et des tissus. Il est idéal pour ceux qui souhaitent un traitement axé sur la relaxation musculaire. Cette technique permet de relâcher les tensions chroniques en exerçant une pression profonde, avec le coude et l'avant-bras, sur les parties contractées. Ce massage du corps tonique est réalisé sur l'ensemble du corps en insistant sur les zones de tension. Il peut accélérer la guérison des blessures et soulager la douleur causée par l'inflammation des tendons, comme la tendinite. Les sportifs et les artistes peuvent aussi suivre les séances de massage Deep Tissue pour les aider dans leurs activités.
+                                Le massage fascia est basé sur une thérapie manuelle qui vise à relâcher les tensions et les douleurs dans les fascias. Il s’agit de tissus conjonctifs qui entourent toutes les structures du corps pour les soutenir, les modeler et les protéger. Dans son état normal, le fascia est détendu et étiré. Cependant, diverses causes telles qu'un traumatisme, une surcharge, une posture incorrecte ou un manque d'activité peuvent rendre le fascia plus rigide et moins souple. Cela est dû à une formation incorrecte du collagène pendant la régénération des tissus, dans laquelle les fibres de collagène se réticulent au lieu d'être parallèles les unes aux autres. J’utilise mes connaissances anatomiques pour concevoir un massage personnalisé qui détecte les blocages et les tensions du visage afin de les libérer et d'améliorer ces tissus en les oxygénant et en les relaxant. Grâce à mes massages, les fascias seront décrispés pour qu’ils retrouvent leur place, leur rythme, et laissent circuler l’énergie.
                                 </p>
                             </div>
                         </details>
@@ -29,6 +27,15 @@ function MassagesPage() {
                             <div className="faq__panel-body">
                                 <p className="faq__panel-description">
                                 Le massage fascia est basé sur une thérapie manuelle qui vise à relâcher les tensions et les douleurs dans les fascias. Il s’agit de tissus conjonctifs qui entourent toutes les structures du corps pour les soutenir, les modeler et les protéger. Dans son état normal, le fascia est détendu et étiré. Cependant, diverses causes telles qu'un traumatisme, une surcharge, une posture incorrecte ou un manque d'activité peuvent rendre le fascia plus rigide et moins souple. Cela est dû à une formation incorrecte du collagène pendant la régénération des tissus, dans laquelle les fibres de collagène se réticulent au lieu d'être parallèles les unes aux autres. J’utilise mes connaissances anatomiques pour concevoir un massage personnalisé qui détecte les blocages et les tensions du visage afin de les libérer et d'améliorer ces tissus en les oxygénant et en les relaxant. Grâce à mes massages, les fascias seront décrispés pour qu’ils retrouvent leur place, leur rythme, et laissent circuler l’énergie.
+                                </p>
+                            </div>
+                        </details>
+
+                        <details aria-expanded="true" className="massage__detail">
+                            <summary className="massage__label">Massage Deep Tissue</summary>
+                            <div className="faq__panel-body">
+                                <p className="faq__panel-description">
+                                Le massage Deep Tissue intervient au niveau des structures profondes des muscles et des tissus. Il est idéal pour ceux qui souhaitent un traitement axé sur la relaxation musculaire. Cette technique permet de relâcher les tensions chroniques en exerçant une pression profonde, avec le coude et l'avant-bras, sur les parties contractées. Ce massage du corps tonique est réalisé sur l'ensemble du corps en insistant sur les zones de tension. Il peut accélérer la guérison des blessures et soulager la douleur causée par l'inflammation des tendons, comme la tendinite. Les sportifs et les artistes peuvent aussi suivre les séances de massage Deep Tissue pour les aider dans leurs activités.
                                 </p>
                             </div>
                         </details>

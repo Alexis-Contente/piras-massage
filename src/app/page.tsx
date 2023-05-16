@@ -18,7 +18,7 @@ function Home() {
                         Pour réserver vos séances avec un thérapeute bien-être à Paris, contactez Piras massage. Du lundi au dimanche, de 10h à 20h, je vous propose des soins de qualité au 47 rue Henri Barbus pour vous détendre et vous revigorer.</p>
 
                         <Image className="imgHome" src={ImgHome} alt="Espace détente avec pierre et fleures"></Image>
-                    </div>
+                    
 
                     <article className="informations">
 
@@ -46,6 +46,7 @@ function Home() {
 
                         </section>
                     </article>
+                    </div>
                 </main>
 
         </>

@@ -1,9 +1,8 @@
-import Navbar from '../Navbar/navbar';
 import './header.css';
 
 function Header() {
     return (
-        <Navbar />
+        <h1 className="title__header">Piras Massage</h1>
     );
 }
 
