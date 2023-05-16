@@ -1,0 +1,63 @@
+.title, .title__cibles, .title__prestations {
+    color: rgba(194,119,237,1);
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.btn__prestations {
+    text-decoration: none;
+    color: rgba(194,119,237,1);
+    
+}
+
+.list__prestations {
+    text-align: center;
+}
+
+.link__prestations {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 5px 0 5px 0;
+    border-radius: 15px;
+    border: 2px solid rgba(194,119,237,1);
+    transition: background-color 300ms, color 300ms;
+}
+
+.link__prestations:hover {
+    color: #fff;
+    background-color: rgba(194,119,237,1);
+}
+
+@media screen and (min-width: 900px) {
+    .intro, .text__cibles, .text__prestations {
+        margin: 0 300px 0 300px;
+    }
+
+    .img__home {
+        display: block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        padding: 5px;
+        border: solid rgba(194,119,237,1) 2px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro, .text__cibles, .text__prestations {
+        margin: 0 150px 0 150px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title, .title__cibles, .title__prestations {
+        font-size: 1.5em;
+    }
+
+    .img__home{
+        display: none;
+    }
+}
