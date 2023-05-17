@@ -57,6 +57,11 @@
         font-size: 1.5em;
     }
 
+    .intro, .text__cibles, .text__prestations {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     .img__home{
         display: none;
     }
