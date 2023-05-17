@@ -1,18 +1,19 @@
-.title__degree {
-    color: rgba(148,187,233,1);
-    text-align: center;
-    font-weight: normal;
-    font-size: 2em;  
-}
-
 .container__degree {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.title__degree {
+    color: rgba(148,187,233,1);
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;  
+}    
+
 .degree {
     display: flex;
+    align-items: center;
     margin-top: 15px;
 }
 
@@ -21,25 +22,29 @@
 }
 
 .detail__degree {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .school {
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     color: grey;
 }
 
 @media screen and (min-width: 900px) {	
-	.container__degree {
-        margin: 100px 200px 50px 200px;
+	.degrees {
+        margin: 0px 200px 50px 200px;
     }
 }
 
 @media screen and (min-width: 768px) {
-	
+	.degrees {
+        margin: 0px 100px 50px 100px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-	
+	.degrees {
+        font-size: 1.5em;
+    }
 }

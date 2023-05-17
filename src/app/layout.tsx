@@ -1,12 +1,12 @@
 "use client"
 
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Dosis } from 'next/font/google'
 import Footer from '@/components/Footer/footer'
 import Navbar from '@/components/Navbar/navbar'
 import Header from '@/components/Header/header'
 
-const inter = Inter({ subsets: ['latin'] })
+const dosis = Dosis({ subsets: ['latin']})
 
 // export const metadata = {
 //   title: 'Piras Massage',
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={dosis.className}>
         <Header /><Navbar />{children}<Footer />
       </body>
     </html>

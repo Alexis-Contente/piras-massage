@@ -3,7 +3,7 @@ import './massagesPage.css';
 function MassagesPage() {
     return (
         <>
-            <main className="massages__page">
+            <main className="container__massages">
                 <h1 className="title__massages">Mes préstations</h1>
                     <section className="list__massages" aria-label="Massages list">
                         <div className="massages__body">
