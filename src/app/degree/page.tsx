@@ -11,6 +11,11 @@ function Degree() {
 
                     <section className="degree"> 
                         <Image className="icon__flower" src={IconFlower} alt="Icône d'une fleur"></Image>
+                        <p className="detail__degree">Titre de Fascia Practicien<br /><span className="school">Ecole de Fascia Bien-Être, Cadenet</span></p>
+                    </section>
+
+                    <section className="degree"> 
+                        <Image className="icon__flower" src={IconFlower} alt="Icône d'une fleur"></Image>
                         <p className="detail__degree">Certificat de Thaï Foot Reflexology<br /><span className="school">Institut A-Zen-Day, Paris</span></p>
                     </section>
 

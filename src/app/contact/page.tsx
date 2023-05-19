@@ -20,9 +20,9 @@ function Contact() {
                     <h2 className="follow">Suivez-moi sur mes réseaux</h2>
 
                     <div className="icon__social">
-                        <a href='https://www.facebook.com/groups/954153091395549' target="_blank"><Image className="icon__fb" src={IconFB} alt="Icon du réseau social Facebook"></Image></a>
+                        <a href='https://www.facebook.com/groups/954153091395549' target="_blank"><Image className="icon__fb" src={IconFB} alt="Icône du réseau social Facebook"></Image></a>
                             
-                        <a href='https://www.instagram.com/piras_massage/' target="_blank"><Image className="icon__insta" src={IconInsta} alt="Icon du réseau social Instagram"></Image></a>
+                        <a href='https://www.instagram.com/piras_massage/' target="_blank"><Image className="icon__insta" src={IconInsta} alt="Icône du réseau social Instagram"></Image></a>
                     </div>
 
                 </div>
