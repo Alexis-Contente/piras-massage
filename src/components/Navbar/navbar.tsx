@@ -2,7 +2,9 @@
 
 import  Link  from 'next/link';
 import './navbar.css';
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
+import Image from 'next/image';
+import BurgerMenu from '../../data/pictures/icons8-menu-64.png';
 
 function Navbar() {
 
@@ -39,7 +41,8 @@ useEffect(() => {
                 </ul>
             )}
 
-            <button onClick={toggleNav} className="btn">BTN</button>
+            <Image className="btn" src={BurgerMenu} alt="Icône d'un burger menu" onClick={toggleNav}></Image>
+            
         </nav>
     );
 }
