@@ -27,6 +27,16 @@ function MassagesPage() {
                                 </div>
                             </details>
 
+                            <details aria-expanded="false" className="massage__detail">
+                                <summary className="massage__label">Massage & Thérapie Fascia</summary>
+                                <div className="faq__panel-body">
+                                    <p className="faq__panel-description">
+                                    Le Massage + Fascias est en fait un massage d’abord musculaire pour détendre et assouplir l’ensemble des muscles de tout le corps puis, après le massage, la personne est recouverte, et s’en suit une séance de rééquilibration des fascias, par Fasciathérapie dans un mode plus global.<br />Pratiqué sur table avec un sous vêtement jetable fourni par le praticien, des huiles sont utilisés en fonction de chacun.
+                                    </p>
+                                    <p className="price">Tarif: 100€ la séance de 90min</p>
+                                </div>
+                            </details>
+
                             <details aria-expanded="true" className="massage__detail">
                                 <summary className="massage__label">Massage Deep Tissue</summary>
                                 <div className="faq__panel-body">

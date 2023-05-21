@@ -32,6 +32,7 @@ useEffect(() => {
     return (
         // NAVBAR
         <nav>
+            <Image className="btn" src={BurgerMenu} alt="Icône d'un burger menu" onClick={toggleNav}></Image>
             {(toggleMenu || screenWidth > 900) && (
                 <ul className="list">
                     <li><Link className="items" href="/">Accueil</Link></li>
@@ -40,9 +41,6 @@ useEffect(() => {
                     <li><Link className="items" href="/contact">Contact</Link></li>
                 </ul>
             )}
-
-            <Image className="btn" src={BurgerMenu} alt="Icône d'un burger menu" onClick={toggleNav}></Image>
-            
         </nav>
     );
 }

@@ -1,8 +1,3 @@
-.container__massages {
-	margin-top: auto;
-    margin-bottom: auto;
-}
-
 .title__massages {
 	color: rgba(148,187,233,1);
     text-align: center;
@@ -54,7 +49,10 @@
 		font-size: 1.5em;
 	}
 	.list__massages {
-		margin: 5px 15px 5px 15px;
+		margin: 5px 5px 5px 5px;
+	}
+	.massage__detail {
+		margin-bottom: 15px;
 	}
 }
 

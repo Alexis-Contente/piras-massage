@@ -1,0 +1,30 @@
+.text__about {
+    padding: 50px;
+    border-radius: 10px;
+    border: solid rgba(238,174,202,1) 2px;
+    text-align: center;
+}
+
+.link__about {
+    text-decoration: none;
+    color: rgba(148,187,233,1);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {	
+    .about__container {
+        margin: 50px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+	.about__container {
+        margin: 25px 50px 25px 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about__container {
+        margin: 5px 15px 5px 15px;
+    }
+}

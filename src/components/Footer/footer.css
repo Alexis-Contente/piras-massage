@@ -16,6 +16,10 @@ footer {
   text-transform: uppercase;
 }
 
+.menu__link:hover {
+  border-bottom: 2px white solid;
+}
+
 @media screen and (min-width: 900px) {
   footer {
     height: 75px;
