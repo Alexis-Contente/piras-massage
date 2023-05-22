@@ -9,14 +9,14 @@ import BurgerMenu from '../../data/pictures/icons8-menu-64.png';
 function Navbar() {
 
 const [toggleMenu, setToggleMenu] = useState(false);
-const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+const [screenWidth, setScreenWidth] = useState(0);
 
 const toggleNav = () => {
     setToggleMenu(!toggleMenu)
 }
 
 useEffect(() => {
-    
+    setScreenWidth(window.innerWidth);
     const changeWidth = () => {
         setScreenWidth(window.innerWidth);
     }

@@ -1,4 +1,4 @@
-import './massagesPage.css';
+import '../../../public/styles/massagesPage.css';
 
 function MassagesPage() {
     return (

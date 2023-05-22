@@ -1,4 +1,4 @@
-import './team.css';
+import '../../../public/styles/team.css';
 import Image from 'next/image';
 import IconGithub from '../../data/pictures/icons8-github-64.png';
 import IconLinkedin from '../../data/pictures/icons8-linkedin-64.png';

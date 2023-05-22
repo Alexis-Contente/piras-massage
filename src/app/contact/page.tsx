@@ -1,7 +1,7 @@
 import ImgContact from '../../data/pictures/massage3.jpeg';
 import IconFB from '../../data/pictures/icons8-facebook-64.png';
 import IconInsta from '../../data/pictures/icons8-instagram-64.png';
-import './contact.css';
+import '../../../public/styles/contact.css';
 
 import Image from 'next/image';
 

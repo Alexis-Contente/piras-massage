@@ -1,4 +1,4 @@
-import './about.css';
+import '../../../public/styles/about.css'
 import Link from 'next/link';
 
 function About () {

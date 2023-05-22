@@ -1,4 +1,4 @@
-import './home.css';
+import '../../public/styles/home.css';
 import ImgHome from '../data/pictures/massage2.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -20,7 +20,8 @@ function Home() {
 
                             <section className="prestations">
                                 <h2 className="title__prestations">Une thérapie adaptée pour chaque besoin</h2>
-                                <p className="text__prestations">Chaque client est unique et a des besoins spécifiques. Pour un travail de qualité, j’adapte ma thérapie au besoin de chaque client. Pour ce faire, j’utilise diverses techniques que j’ai apprises durant mes formations :
+                                <div>
+                                    <p className="text__prestations">Chaque client est unique et a des besoins spécifiques. Pour un travail de qualité, j’adapte ma thérapie au besoin de chaque client. Pour ce faire, j’utilise diverses techniques que j’ai apprises durant mes formations :</p>
                                     <div className="list__prestations">
                                         <p>· Fascia thérapie.</p>
                                         <p>· Massage Fascia.</p>
@@ -28,9 +29,9 @@ function Home() {
                                         <p>· Thaï massage.</p>
                                         <p>· Aroma Herba Oil.</p>
                                         <p>· Reiki.</p>
-                                    </div>
+                                </div>
                                     <Link className="btn__prestations" href="/massages"><p className="link__prestations">Retrouvez tous les détails ici !</p></Link>
-                                </p>
+                                </div>
                             </section>
 
                         </article>
