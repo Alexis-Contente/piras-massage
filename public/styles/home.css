@@ -34,6 +34,10 @@
         margin: 0 300px 0 300px;
     }
 
+    .link__prestations {
+        margin: 0 300px 50px 300px;
+    }
+
     .img__home {
         display: block;
         margin-top: 25px;
@@ -46,8 +50,12 @@
 }
 
 @media screen and (min-width: 768px) {
-    .intro, .text__cibles, .text__prestations {
+    .intro, .text__cibles, .text__prestations, .link__prestations {
         margin: 0 150px 0 150px;
+    }
+
+    .link__prestations {
+        margin: 0 150px 50px 150px;
     }
 }
 
@@ -56,12 +64,16 @@
         font-size: 1.5em;
     }
 
-    .intro, .text__cibles, .text__prestations {
+    .intro, .text__cibles, .text__prestations, .link__prestations {
         margin-left: 10px;
         margin-right: 10px;
     }
 
     .img__home{
         display: none;
+    }
+
+    .link__prestations {
+        margin: 0 10px 5px 10px;
     }
 }
