@@ -93,7 +93,7 @@
 
 @media screen and (max-width: 767px) {
     .container__contact {
-        margin: auto 5px auto 5px;
+        margin: 10px 15px 10px 15px;
     }
 
     .reseaux {

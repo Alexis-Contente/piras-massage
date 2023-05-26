@@ -44,6 +44,14 @@
 }
 
 @media screen and (max-width: 767px) {
+    .container__degree {
+        margin: 10px 15px 10px 15px;
+    }
+
+    .title__degree {
+        font-size: 1.5em;
+    }
+
 	.degrees {
         font-size: 1.5em;
     }
