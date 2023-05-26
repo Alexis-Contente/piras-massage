@@ -19,8 +19,8 @@ function Team() {
                     Le site est accessible et utilisable mais il n'est pas encore terminé. Celui-ci tend à évoluer grâce à l'ajout de nouvelles informations et fonctionnalités pour faciliter l'utilisation de l'utilisateur.
                 </p>
                 <p className="reseaux__team">
-                    <a href='https://www.facebook.com/groups/954153091395549' target="_blank"><Image className="icon__lk" src={IconLinkedin} alt="Icône du réseau social Facebook"></Image></a>         
-                    <a href='https://www.instagram.com/piras_massage/' target="_blank"><Image className="icon__gh" src={IconGithub} alt="Icône du réseau social Instagram"></Image></a>
+                    <a href='https://www.linkedin.com/in/alexis-contente/' target="_blank"><Image className="icon__lk" src={IconLinkedin} alt="Icône du réseau social Facebook"></Image></a>         
+                    <a href='https://github.com/Alexis-Contente' target="_blank"><Image className="icon__gh" src={IconGithub} alt="Icône du réseau social Instagram"></Image></a>
                 </p>
             </main>
         </>
