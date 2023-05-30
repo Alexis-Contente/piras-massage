@@ -14,7 +14,7 @@ function Contact() {
                         
                     <h1 className="title__contact">Me contacter</h1>
                     <p className="para__contact">Vous avez la possibilité de me joindre, si vous souhaitez avoir plus d'information sur mes prestation ou pour prendre directement rendez-vous.</p>
-                    <a className="contact__tel" href="tel:+33628602076">Cliquez ici pour me joindre au 06 28 60 20 76</a>
+                    <a className="contact__tel" href="tel:+33628602076">Cliquez ici pour me joindre au +33 6 28 60 20 76</a>
                     <a className="contact__mail" href="mailto:dvdpiras@gmail.com?subject=HTML link">Cliquez ici pour m'envoyer un e-mail</a>
                         
                     <h2 className="follow">Suivez-moi sur mes réseaux</h2>

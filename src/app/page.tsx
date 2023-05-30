@@ -9,7 +9,7 @@ function Home() {
             <main className="container__home">
                 <div className="container">
                     <h1 className="title">Cabinet de massage et de soin énergétique</h1>
-                        <p className="intro">D'origine Sarde, et après 17 ans passés à Paris comme masseur thérapeute, j'ai pris la décision de revenir vivre en Sardaigne. Je propose des massages de bien-être, relaxants et revigorants pour l'ensemble des muscles du corps, mais aussi des massages thérapeutiques, (shiatsu, deep-tissue, reïki, fascia thérapie ...) dont chacun de nous a besoin sans toujours le savoir.<br />Ces massages ont des bienfaits physiologiques sur le corps mais également sur l’état psychologique, qui dépend souvent de la période que nous traversons, avec des effets durables qui permettent de rétablir un équilibre naturel du corps et de l'esprit.<br />Au cours de mon expérience, j'ai appris à envisager mon métier et mes interventions de façon globale et profonde dans la connaissance des imbrications multiples des mécanismes du corps humain et de ses relations et impacts sur le cerveau. Avant chaque séance, je prends le temps de discuter avec mon patient et de toucher quelques points précis de son corps afin de pouvoir cerner efficacement la méthode à utiliser. Cela a pour conséquence de répondre aux attentes et besoins de chaque patient de façon plus ciblée et personnelle.</p>
+                        <p className="intro">D'origine Sarde, et après 17 ans passés à Paris comme masseur thérapeute, j'ai pris la décision de revenir vivre en Sardaigne. Je propose des massages de bien-être, relaxants et revigorants pour l'ensemble des muscles du corps, mais aussi des massages thérapeutiques, (shiatsu, deep-tissue, reïki, fascia thérapie ...) dont chacun de nous a besoin sans toujours le savoir.<br />Ces massages ont des bienfaits physiologiques sur le corps mais également sur l’état psychologique, qui dépend souvent de la période que nous traversons, avec des effets durables qui permettent de rétablir un équilibre naturel du corps et de l'esprit.<br />Au cours de mon expérience, j'ai appris à envisager mon métier et mes interventions de façon globale et profonde dans la connaissance des imbrications multiples des mécanismes du corps humain et de ses relations et impacts sur le cerveau. Avant chaque séance, je prends le temps de discuter avec mon patient et de toucher quelques points précis de son corps afin de pouvoir cerner efficacement la méthode à utiliser. Cela a pour effet de répondre aux attentes et besoins de chaque patient de façon plus ciblée et personnelle.</p>
                         <Image className="img__home" src={ImgHome} alt="Espace détente avec pierres et fleures"></Image>
                         <article className="informations">
 
@@ -25,6 +25,7 @@ function Home() {
                                     <div className="list__prestations">
                                         <p>· Fascia thérapie.</p>
                                         <p>· Massage Fascia.</p>
+                                        <p>· Massage & Thérapie Fascia.</p>
                                         <p>· Massage Deep Tissue.</p>
                                         <p>· Thaï massage.</p>
                                         <p>· Aroma Herba Oil.</p>
