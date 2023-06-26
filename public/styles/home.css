@@ -1,83 +1,135 @@
-.title, .title__cibles, .title__prestations {
-    color: rgba(148,187,233,1);
-    text-align: center;
-    font-weight: normal;
-    font-size: 2em;
+.title,
+.title__cibles,
+.title__prestations,
+.title__googlemap {
+  color: rgba(148, 187, 233, 1);
+  text-align: center;
+  font-weight: normal;
+  font-size: 2em;
+  margin: 50px 0 25px 0;
+}
+
+.title__cibles,
+.title__prestations,
+.title__googlemap {
+  margin: 50px 0 25px 0;
 }
 
 .btn__prestations {
-    text-decoration: none;
-    color: rgba(238,174,202,1);
+  text-decoration: none;
+  color: rgba(238, 174, 202, 1);
+  margin-bottom: 0;
 }
 
-.list__prestations {
-    text-align: center;
+.list__prestations,
+.text__googlemap {
+  text-align: center;
 }
 
 .link__prestations {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #fff;
-    padding: 5px 0 5px 0;
-    border-radius: 15px;
-    border: 2px solid rgba(238,174,202,1);
-    transition: background-color 300ms, color 300ms;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 5px 0 5px 0;
+  border-radius: 15px;
+  border: 2px solid rgba(238, 174, 202, 1);
+  transition: background-color 300ms, color 300ms;
 }
 
 .link__prestations:hover {
-    color: #fff;
-    background-color: rgba(238,174,202,1);
+  color: #fff;
+  background-color: rgba(238, 174, 202, 1);
+}
+
+.institus {
+  text-decoration: none;
+  color: black;
+}
+
+.institus:hover {
+  color: rgba(238, 174, 202, 1);
 }
 
 @media screen and (min-width: 900px) {
-    .intro, .text__cibles, .text__prestations {
-        margin: 0 300px 0 300px;
-    }
+  .intro,
+  .text__cibles,
+  .text__prestations,
+  .link__prestations {
+    margin: 0 300px 0 300px;
+  }
 
-    .link__prestations {
-        margin: 0 300px 50px 300px;
-    }
+  .text__googlemap {
+    margin: 0 300px 25px 300px;
+  }
 
-    .img__home {
-        display: block;
-        margin-top: 25px;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 15px;
-        padding: 5px;
-        border: solid rgba(238,174,202,1) 2px;
-    }
+  .img__home {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 5px;
+    border: solid rgba(238, 174, 202, 1) 2px;
+  }
+
+  .googlemap {
+    border: 2px solid rgba(148, 187, 233, 1);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 50px 50px 50px;
+  }
+
+  .map {
+    border: 0;
+    height: 500px;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .intro, .text__cibles, .text__prestations, .link__prestations {
-        margin: 0 150px 0 150px;
-    }
+  .intro,
+  .text__cibles,
+  .text__prestations,
+  .link__prestations {
+    margin: 0 150px 0 150px;
+  }
 
-    .link__prestations {
-        margin: 0 150px 50px 150px;
-    }
+  .text__googlemap {
+    margin: 0 150px 50px 150px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .container__home {
-        margin: 10px 15px 10px 15px;
-    }
+  .container__home {
+    margin: 10px 15px 10px 15px;
+  }
 
-    .title, .title__cibles, .title__prestations {
-        font-size: 1.5em;
-    }
+  .title,
+  .title__cibles,
+  .title__prestations,
+  .title__googlemap {
+    font-size: 1.5em;
+  }
 
-    .intro, .text__cibles, .text__prestations, .link__prestations {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+  .intro,
+  .text__cibles,
+  .text__prestations,
+  .link__prestations,
+  .text__googlemap {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-    .img__home{
-        display: none;
-    }
+  .img__home {
+    display: none;
+  }
 
-    .link__prestations {
-        margin: 0 10px 10px 10px;
-    }
+  .link__prestations {
+    margin: 0 10px 10px 10px;
+  }
+
+  .map {
+    width: 100%;
+    height: 300px;
+  }
 }

@@ -42,5 +42,48 @@
       "price": "Tarif: 100€ la séance de 90min",
       "id": 7
     }
+  ],
+
+  "ecoles": [
+    {
+      "degree": "Titre de Fascia Practicien",
+      "school": "Ecole de Fascia Bien-Être, Cadenet",
+      "id": 1
+    },
+    {
+      "degree": "Certificat de Thaï Foot Reflexology",
+      "school": "Institut A-Zen-Day, Paris",
+      "id": 2
+    },
+    {
+      "degree": "Diplôme de Thérapeute en Nuad Bo-Rarn Thaï Massage",
+      "school": "ITM (International Training Massage school), Thaïlande",
+      "id": 3
+    },
+    {
+      "degree": "Diplômes Hot Stone Healing Massage et Aroma Herba Oil Massage",
+      "school": "ITM-Spa Mantra, Thaïlande",
+      "id": 4
+    },
+    {
+      "degree": "Certificats de Reïki et d'Indian Head Massage",
+      "school": "Centre Musha Matombo à Harare, Zimbabwe",
+      "id": 5
+    },
+    {
+      "degree": "Certificat de Shiatsu sur chaise \"Amma Assi\"",
+      "school": "Shiatsu Thema à Versaille, France",
+      "id": 6
+    },
+    {
+      "degree": "Certificat de Shiatsu Esthétique \"du visage\"",
+      "school": "Shiatsu Thema à Versaille, France",
+      "id": 7
+    },
+    {
+      "degree": "Certificat de Reïki 2 puis 3 niveau maitre",
+      "school": "Centre MundoReïki Hendaye Paris, France",
+      "id": 8
+    }
   ]
 }
