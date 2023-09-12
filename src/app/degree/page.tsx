@@ -1,5 +1,5 @@
 import "../../../public/styles/degree.css";
-import IconFlower from "../../data/pictures/icons8-flower-50.png";
+import IconFlower from "../../../public/data/pictures/icons8-flower-50.png";
 import database from "../../db.json";
 
 import Image from "next/image";

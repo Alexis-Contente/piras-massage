@@ -1,6 +1,6 @@
 import "../../public/styles/home.css";
-import ImgHome from "../data/pictures/massage2.jpg";
 import Image from "next/image";
+import ImgHome from "../../public/data/pictures/massage2.jpg";
 import Link from "next/link";
 import database from "../db.json";
 
