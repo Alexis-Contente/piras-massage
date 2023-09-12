@@ -1,3 +1,39 @@
+# Piras Massaggi
+
+## Intro
+
+This application is a website that allows you to offer the services of Davide Piras.
+
+## Getting Started
+
+First, we have to install all depedencies:
+
+On the terminal:
+
+```bash
+npm install
+```
+
+Then, run the developement server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+## Stacks
+
+For this project, I used the Next.js framework based on the Javascript library.
+
+## Deployment
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
