@@ -94,13 +94,6 @@ function Home() {
                 , le vendredi après-midi et le samedi matin ou après-midi
                 suivant les rendez-vous.
               </p>
-              <div className="googlemap">
-                <iframe
-                  className="map"
-                  src="https://storage.googleapis.com/maps-solutions-35cavkcvgj/locator-plus/t8no/locator-plus.html"
-                  loading="lazy"
-                ></iframe>
-              </div>
             </section>
           </article>
         </div>

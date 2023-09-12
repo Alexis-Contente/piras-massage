@@ -1,5 +1,44 @@
 # Piras Massaggi
 
+Cette application est un site web qui permet de proposer les services de masseur d'un particulier Davide Piras.
+Cette application est un site vitrine composé d'une page d'accueil, et de plusieurs autres pages satique.
+
+## Pour commencer
+
+### Pré-requis
+
+### Installation
+
+## Démarrage
+
+Pour lancer le serveur de l'application, tapez dans votre terminal:
+
+```bash
+npm run dev
+```
+
+Ensuite rendez-vous sur votre navigateur à l'adresse suivante:
+
+[http://localhost:3000]
+
+Pour voir le résultat.
+
+## Fabriqué avec
+
+Cette application a été conçu grâce au framework Next.js s'appuyant sur la bibliothèque JavaScript.
+
+## Contributing
+
+Moi-même, Alexis Contente, ai été le seul intervenant sur ce projet.
+
+## Versions
+
+Il s'agit ici de la première version du site.
+
+---
+
+# Piras Massaggi
+
 ## Intro
 
 This application is a website that allows you to offer the services of Davide Piras.
@@ -33,6 +72,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 For this project, I used the Next.js framework based on the Javascript library.
 
 ## Deployment
+
+---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
