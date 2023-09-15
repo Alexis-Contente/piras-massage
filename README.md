@@ -26,9 +26,7 @@ Pour lancer le serveur de l'application, tapez dans votre terminal:
 npm run dev
 ```
 
-Ensuite rendez-vous sur votre navigateur à l'adresse suivante:
-[http://localhost:3000]
-Pour voir le résultat.
+Ensuite rendez-vous sur votre navigateur à l'adresse suivante: [http://localhost:3000] pour voir le résultat.
 
 ## 🛠 Fabriqué avec
 
