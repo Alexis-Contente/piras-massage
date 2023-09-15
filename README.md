@@ -36,7 +36,7 @@ Cette application a été créée grâce au framework Next.js qui est une biblio
 
 Cette version est la première qui a été créée. De prochaines évolutions sont à venir.
 
-## 🤝🏻 Author
+## 🤝🏻 Auteurs
 
 #### Alexis Contente
 
