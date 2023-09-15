@@ -36,6 +36,10 @@ Cette application a été créée grâce au framework Next.js qui est une biblio
 
 Cette version est la première qui a été créée. De prochaines évolutions sont à venir.
 
+## 🚀 Déploiement
+
+Cette application a été déployé sous Netlify.
+
 ## 🤝🏻 Auteurs
 
 #### Alexis Contente
