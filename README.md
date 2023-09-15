@@ -1,11 +1,14 @@
 # <p align="center">Piras Massaggi</p>
 
 Cette application est un site web qui permet de proposer les services de masseur d'un particulier Davide Piras.
-Cette application est un site vitrine composé d'une page d'accueil, et de plusieurs autres pages satique.
+C'est un site vitrine composé d'une page d'accueil, et de plusieurs autres pages satique.
 
 ## 🚦 Start
 
 ### Pré-requis
+
+Il est nécessaire d'avoir Node.js d'installé sur son ordinateur.
+Voici le lien de téléchargement: [https://nodejs.org/fr/download]
 
 ### Installation
 
@@ -34,8 +37,6 @@ Cette application a été créée grâce au framework Next.js qui est une biblio
 ## 💻 Versions
 
 Cette version est la première qui a été créée. De prochaines évolutions sont à venir.
-
-## 🚀 Déploiement
 
 ## 🤝🏻 Author
 
