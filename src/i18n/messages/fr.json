@@ -1,0 +1,143 @@
+{
+	"nav": {
+		"menu": "Ouvrir le menu",
+		"home": "Accueil",
+		"about": "Parcours",
+		"services": "Services",
+		"location": "Localisation",
+		"contact": "Contact"
+	},
+	"language": {
+		"change": "Changer la langue",
+		"fr": "Français",
+		"en": "English",
+		"it": "Italiano"
+	},
+	"hero": {
+		"titlePrefix": "Retrouvez votre",
+		"titleHighlight": "équilibre",
+		"description": "Massages thérapeutiques et bien-être à Cagliari pour apaiser les tensions du corps et de l'esprit.",
+		"primaryCta": "Découvrir les services",
+		"secondaryCta": "Mon parcours"
+	},
+	"about": {
+		"titlePrefix": "Mon",
+		"titleHighlight": "parcours",
+		"paragraph1": "D'origine sarde, après 17 ans à Paris comme masseur thérapeute, je suis revenu vivre en Sardaigne pour proposer un accompagnement plus proche et personnalisé.",
+		"paragraph2": "Je pratique des massages relaxants et thérapeutiques: shiatsu, deep tissue, reiki, fascia thérapie et d'autres techniques adaptées à chaque besoin.",
+		"paragraph3": "Avant chaque séance, j'échange avec vous et j'évalue les zones sensibles pour construire une approche ciblée et durable.",
+		"experience": "17+ ans d'expérience",
+		"credentialsTitle": "Formations et diplômes",
+		"credentials": {
+			"fasciaPractitioner": {
+				"title": "Titre de Fascia Practicien",
+				"school": "Ecole de Fascia Bien-Être, Cadenet"
+			},
+			"thaiFootReflexology": {
+				"title": "Certificat de Thaï Foot Reflexology",
+				"school": "Institut A-Zen-Day, Paris"
+			},
+			"nuadBoRarn": {
+				"title": "Diplôme de Thérapeute en Nuad Bo-Rarn Thaï Massage",
+				"school": "ITM, Thaïlande"
+			},
+			"hotStoneAndAroma": {
+				"title": "Diplômes Hot Stone Healing et Aroma Herba Oil",
+				"school": "ITM-Spa Mantra, Thaïlande"
+			},
+			"reikiAndIndianHead": {
+				"title": "Certificats de Reiki et d'Indian Head Massage",
+				"school": "Centre Musha Matombo, Harare"
+			},
+			"ammaAssi": {
+				"title": "Certificat de Shiatsu sur chaise Amma Assi",
+				"school": "Shiatsu Thema, Versailles"
+			},
+			"facialShiatsu": {
+				"title": "Certificat de Shiatsu Esthétique du visage",
+				"school": "Shiatsu Thema, Versailles"
+			},
+			"reikiMaster": {
+				"title": "Certificat Reiki niveau maître",
+				"school": "Centre MundoReiki, Hendaye/Paris"
+			}
+		}
+	},
+	"services": {
+		"titlePrefix": "Mes",
+		"titleHighlight": "prestations",
+		"subtitle": "Des techniques complémentaires pour soulager les douleurs, améliorer la mobilité et favoriser une détente profonde.",
+		"bookCta": "Prendre rendez-vous",
+		"items": {
+			"fasciaTherapy": {
+				"name": "Fascia thérapie",
+				"description": "Thérapie manuelle douce des fascias pour restaurer mobilité, tonus et souplesse. Séance habillé, sans huile.",
+				"price": "50EUR / 45 min (3 séances minimum recommandées)"
+			},
+			"fasciaMassage": {
+				"name": "Massage Fascia",
+				"description": "Massage lent et profond de tout le corps, inspiré de la fasciathérapie, pour une relaxation extrême.",
+				"price": "100EUR / 90 min"
+			},
+			"fasciaCombo": {
+				"name": "Massage et Thérapie Fascia",
+				"description": "Massage musculaire global suivi d'un rééquilibrage des fascias pour une action complète corps/psychisme.",
+				"price": "100EUR / 90 min"
+			},
+			"deepTissue": {
+				"name": "Massage Deep Tissue",
+				"description": "Techniques de travail musculaire en profondeur pour relâcher les tensions persistantes.",
+				"price": "100EUR / 90 min"
+			},
+			"aromaHerbalOil": {
+				"name": "Aroma Herba Oil",
+				"description": "Massage du corps aux huiles essentielles pour réduire le stress, détendre et tonifier.",
+				"price": "100EUR / 90 min"
+			},
+			"reiki": {
+				"name": "Reiki",
+				"description": "Pratique énergétique par imposition des mains pour apaiser, recentrer et rééquilibrer les énergies.",
+				"price": "100EUR / 90 min"
+			},
+			"thaiMassage": {
+				"name": "Thaï Massage",
+				"description": "Étirements guidés et pressions sur les lignes d'énergie pour améliorer souplesse, circulation et vitalité.",
+				"price": "100EUR / 90 min"
+			}
+		}
+	},
+	"location": {
+		"titlePrefix": "Me",
+		"titleHighlight": "trouver",
+		"practiceTitle": "Lieux de pratique",
+		"addressLabel": "Zone",
+		"phoneLabel": "Téléphone",
+		"emailLabel": "Email",
+		"venuesTitle": "J'exerce dans deux instituts à Cagliari:",
+		"mapTitle": "Carte des lieux de pratique",
+		"schedules": {
+			"maison22": "- lundi ou mardi selon les rendez-vous.",
+			"thalassos": "- vendredi après-midi et samedi selon les rendez-vous."
+		}
+	},
+	"contact": {
+		"titlePrefix": "Me",
+		"titleHighlight": "contacter",
+		"description": "Pour toute question sur les prestations ou pour réserver une séance, contactez-moi directement.",
+		"phoneCta": "Appeler au {phone}",
+		"emailCta": "Envoyer un e-mail",
+		"followUs": "Suivez-moi sur les réseaux"
+	},
+	"footer": {
+		"brandDescription": "Massages thérapeutiques et énergétiques à Cagliari.",
+		"navigationTitle": "Navigation",
+		"contactTitle": "Contact",
+		"copyright": "© 2026 Piras Massaggi. Tous droits réservés.",
+		"links": {
+			"about": "Parcours",
+			"services": "Services",
+			"location": "Localisation",
+			"contact": "Contact"
+		}
+	}
+}
