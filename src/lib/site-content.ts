@@ -35,8 +35,8 @@ export const socialLinks = [
 ] as const;
 
 export const contactInfo = {
-	phoneRaw: "+33628602076",
-	phoneDisplay: "+33 6 28 60 20 76",
+	phoneRaw: "+393514058862",
+	phoneDisplay: "+39 351 405 8862",
 	email: "dvdpiras@gmail.com",
 } as const;
 
