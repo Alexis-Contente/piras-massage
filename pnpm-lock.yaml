@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@next/font':
-        specifier: ^13.4.2
-        version: 13.5.11
       '@radix-ui/react-menubar':
         specifier: ^1.1.16
         version: 1.1.16(@types/react-dom@18.2.4)(@types/react@18.2.6)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -431,9 +428,6 @@ packages:
 
   '@next/eslint-plugin-next@16.1.6':
     resolution: {integrity: sha512-/Qq3PTagA6+nYVfryAtQ7/9FEr/6YVyvOtl6rZnGsbReGLf0jZU6gkpr1FuChAQpvV46a78p4cmHOVP8mbfSMQ==}
-
-  '@next/font@13.5.11':
-    resolution: {integrity: sha512-C4fRIb3O0Dh/Wi8hE1lkHDKmR5leUfe4fG+wfuRX8p3PPeduvJYMcU/Wq5eU3XEl2XqMeOuVbLCd2DAH/8Er2Q==}
 
   '@next/swc-darwin-arm64@16.1.6':
     resolution: {integrity: sha512-wTzYulosJr/6nFnqGW7FrG3jfUUlEf8UjGA0/pyypJl42ExdVgC6xJgcXQ+V8QFn6niSG2Pb8+MIG1mZr2vczw==}
@@ -3632,8 +3626,6 @@ snapshots:
   '@next/eslint-plugin-next@16.1.6':
     dependencies:
       fast-glob: 3.3.1
-
-  '@next/font@13.5.11': {}
 
   '@next/swc-darwin-arm64@16.1.6':
     optional: true
