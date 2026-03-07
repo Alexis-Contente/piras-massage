@@ -36,12 +36,6 @@ export default function Hero() {
 					>
 						{t("primaryCta")}
 					</button>
-					<button
-						onClick={() => scrollTo("about")}
-						className="px-8 py-3 bg-secondary cursor-pointer text-secondary-foreground border border-primary/20 rounded-full font-medium hover:bg-secondary/80 transition-colors"
-					>
-						{t("secondaryCta")}
-					</button>
 				</div>
 			</div>
 		</section>

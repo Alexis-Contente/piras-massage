@@ -58,6 +58,11 @@ export default function Header({
 					<LanguageSwitcher />
 				</div>
 
+				<div className="md:hidden flex items-center gap-2">
+					<ThemeSwitcher />
+					<LanguageSwitcher />
+				</div>
+
 				<button
 					onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
 					className="md:hidden ml-auto p-2 hover:bg-secondary rounded-lg transition-colors"
@@ -87,12 +92,6 @@ export default function Header({
 								{item.label}
 							</button>
 						))}
-						<div className="pt-2 border-t border-border">
-							<ThemeSwitcher />
-						</div>
-						<div className="pt-2 border-t border-border">
-							<LanguageSwitcher />
-						</div>
 					</div>
 				</div>
 			)}

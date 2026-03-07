@@ -12,8 +12,6 @@ export const serviceKeys = [
 	"thaiMassage",
 ] as const;
 
-export type ServiceKey = (typeof serviceKeys)[number];
-
 export const credentialKeys = [
 	"fasciaPractitioner",
 	"thaiFootReflexology",
@@ -23,21 +21,6 @@ export const credentialKeys = [
 	"ammaAssi",
 	"facialShiatsu",
 	"reikiMaster",
-] as const;
-
-export type CredentialKey = (typeof credentialKeys)[number];
-
-export const venues = [
-	{
-		name: "Maison 22 Esthetique",
-		url: "https://www.maison22cagliari.it/",
-		scheduleKey: "maison22",
-	},
-	{
-		name: "Thalassos",
-		url: "http://www.thalassos.it/",
-		scheduleKey: "thalassos",
-	},
 ] as const;
 
 export const socialLinks = [

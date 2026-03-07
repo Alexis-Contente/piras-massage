@@ -4,8 +4,7 @@
 		"home": "Accueil",
 		"about": "Parcours",
 		"services": "Services",
-		"location": "Localisation",
-		"contact": "Contact"
+		"location": "Localisation"
 	},
 	"language": {
 		"change": "Changer la langue",
@@ -22,8 +21,7 @@
 		"titlePrefix": "Retrouvez votre",
 		"titleHighlight": "équilibre",
 		"description": "Massages thérapeutiques et bien-être à Cagliari pour apaiser les tensions du corps et de l'esprit.",
-		"primaryCta": "Découvrir les services",
-		"secondaryCta": "Mon parcours"
+		"primaryCta": "Découvrir les services"
 	},
 	"about": {
 		"titlePrefix": "Mon",
@@ -31,7 +29,6 @@
 		"paragraph1": "Masseur thérapeute d'origine sarde, j'accompagne depuis plus de 17 ans une clientèle exigeante avec une approche centrée sur la récupération, la mobilité et le bien-être durable.",
 		"paragraph2": "Mon parcours entre Paris et la Sardaigne m'a permis de développer une expertise complète, associant techniques manuelles, travail tissulaire profond et soins énergétiques adaptés à chaque profil.",
 		"paragraph3": "Chaque prise en charge débute par une évaluation personnalisée afin de proposer un protocole précis, sécurisé et orienté résultats, en cohérence avec vos objectifs de santé et de confort.",
-		"experience": "17+ ans d'expertise professionnelle",
 		"credentialsTitle": "Diplômes et certifications",
 		"credentials": {
 			"fasciaPractitioner": {
@@ -114,23 +111,13 @@
 	"location": {
 		"titlePrefix": "Me",
 		"titleHighlight": "trouver",
-		"practiceTitle": "Lieux de pratique",
+		"practiceTitle": "Informations pratiques",
 		"addressLabel": "Zone",
 		"phoneLabel": "Téléphone",
 		"emailLabel": "Email",
-		"venuesTitle": "J'exerce dans deux instituts à Cagliari:",
-		"mapTitle": "Carte des lieux de pratique",
-		"schedules": {
-			"maison22": "- lundi ou mardi selon les rendez-vous.",
-			"thalassos": "- vendredi après-midi et samedi selon les rendez-vous."
-		}
+		"mapTitle": "Carte des lieux de pratique"
 	},
 	"contact": {
-		"titlePrefix": "Me",
-		"titleHighlight": "contacter",
-		"description": "Pour toute question sur les prestations ou pour réserver une séance, contactez-moi directement.",
-		"phoneCta": "Appeler au {phone}",
-		"emailCta": "Envoyer un e-mail",
 		"followUs": "Suivez-moi sur les réseaux"
 	},
 	"footer": {
@@ -141,8 +128,7 @@
 		"links": {
 			"about": "Parcours",
 			"services": "Services",
-			"location": "Localisation",
-			"contact": "Contact"
+			"location": "Localisation"
 		}
 	}
 }

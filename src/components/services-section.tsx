@@ -38,7 +38,7 @@ export default function ServicesSection() {
 							</div>
 
 							<a
-								href="#contact"
+								href="#location"
 								className="block w-full py-2 text-center border border-primary text-primary rounded-lg font-medium hover:bg-primary hover:text-white transition-colors"
 							>
 								{t("bookCta")}
