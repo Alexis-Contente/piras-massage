@@ -21,7 +21,7 @@ export default function ServicesSection() {
 					{serviceKeys.map((key) => (
 						<article
 							key={key}
-							className="bg-white rounded-2xl p-5 sm:p-6 hover:shadow-lg transition-all duration-300 border border-border hover:border-primary/30"
+							className="bg-card rounded-2xl p-5 sm:p-6 hover:shadow-lg transition-all duration-300 border border-border hover:border-primary/30"
 						>
 							<div className="mb-4">
 								<h3 className="text-lg sm:text-xl font-medium text-foreground mb-2">

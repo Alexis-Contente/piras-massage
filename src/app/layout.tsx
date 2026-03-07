@@ -26,7 +26,7 @@ export default async function RootLayout({
 	const locale = cookieStore.get("locale")?.value || "it";
 
 	return (
-		<html lang={locale}>
+		<html lang={locale} suppressHydrationWarning>
 			<body className={`font-sans antialiased`}>
 				<NextIntlClientProvider messages={messages}>
 					{children}

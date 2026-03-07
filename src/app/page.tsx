@@ -6,7 +6,6 @@ import Hero from "@/components/hero";
 import AboutSection from "@/components/about-section";
 import ServicesSection from "@/components/services-section";
 import LocationSection from "@/components/location-section";
-import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 import { sectionIds, type SectionId } from "@/lib/site-content";
 
@@ -46,7 +45,6 @@ export default function Home() {
 				<AboutSection />
 				<ServicesSection />
 				<LocationSection />
-				<ContactSection />
 			</main>
 			<Footer />
 		</div>

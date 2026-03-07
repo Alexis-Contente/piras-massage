@@ -13,6 +13,11 @@
 		"en": "English",
 		"it": "Italiano"
 	},
+	"theme": {
+		"toggle": "Cambia tema",
+		"light": "Chiaro",
+		"dark": "Scuro"
+	},
 	"hero": {
 		"titlePrefix": "Ritrova il tuo",
 		"titleHighlight": "equilibrio",
@@ -23,11 +28,11 @@
 	"about": {
 		"titlePrefix": "Il mio",
 		"titleHighlight": "percorso",
-		"paragraph1": "Di origine sarda, dopo 17 anni a Parigi come massoterapista, sono tornato in Sardegna per offrire un accompagnamento più personalizzato.",
-		"paragraph2": "Propongo massaggi rilassanti e terapeutici: shiatsu, deep tissue, reiki, fascia terapia e altre tecniche adattate a ogni esigenza.",
-		"paragraph3": "Prima di ogni seduta, ascolto le tue necessità e valuto le aree sensibili per costruire un approccio mirato e duraturo.",
-		"experience": "17+ anni di esperienza",
-		"credentialsTitle": "Formazione e qualifiche",
+		"paragraph1": "Massoterapista di origine sarda con oltre 17 anni di esperienza, accompagno ogni persona con un approccio orientato a recupero funzionale, mobilità e benessere duraturo.",
+		"paragraph2": "Il mio percorso tra Parigi e la Sardegna mi ha permesso di integrare tecniche manuali avanzate, lavoro profondo sui tessuti e trattamenti energetici personalizzati.",
+		"paragraph3": "Ogni seduta inizia con una valutazione professionale per definire un protocollo preciso, sicuro e coerente con i tuoi obiettivi di salute e qualità di vita.",
+		"experience": "17+ anni di esperienza professionale",
+		"credentialsTitle": "Diplomi e certificazioni",
 		"credentials": {
 			"fasciaPractitioner": {
 				"title": "Titolo di Fascia Practitioner",

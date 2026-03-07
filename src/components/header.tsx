@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "./language-switcher";
+import ThemeSwitcher from "./theme-switcher";
 import { sectionIds, type SectionId } from "@/lib/site-content";
 
 interface HeaderProps {
@@ -34,7 +35,7 @@ export default function Header({
 	}));
 
 	return (
-		<header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-border">
+		<header className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
 			<nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex items-center justify-between gap-3">
 				<div className="hidden md:flex items-center gap-4 lg:gap-8">
 					{navItems.map((item) => (
@@ -52,7 +53,8 @@ export default function Header({
 					))}
 				</div>
 
-				<div className="hidden md:block md:ml-auto">
+				<div className="hidden md:flex md:ml-auto items-center gap-2">
+					<ThemeSwitcher />
 					<LanguageSwitcher />
 				</div>
 
@@ -70,7 +72,7 @@ export default function Header({
 			</nav>
 
 			{isMobileMenuOpen && (
-				<div className="md:hidden bg-white border-t border-border">
+				<div className="md:hidden bg-background border-t border-border">
 					<div className="px-4 py-4 space-y-3">
 						{navItems.map((item) => (
 							<button
@@ -85,6 +87,9 @@ export default function Header({
 								{item.label}
 							</button>
 						))}
+						<div className="pt-2 border-t border-border">
+							<ThemeSwitcher />
+						</div>
 						<div className="pt-2 border-t border-border">
 							<LanguageSwitcher />
 						</div>

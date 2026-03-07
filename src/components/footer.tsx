@@ -19,7 +19,6 @@ export default function Footer() {
 							<li><a href="#about" className="hover:opacity-100 transition-opacity">{t("links.about")}</a></li>
 							<li><a href="#services" className="hover:opacity-100 transition-opacity">{t("links.services")}</a></li>
 							<li><a href="#location" className="hover:opacity-100 transition-opacity">{t("links.location")}</a></li>
-							<li><a href="#contact" className="hover:opacity-100 transition-opacity">{t("links.contact")}</a></li>
 						</ul>
 					</div>
 

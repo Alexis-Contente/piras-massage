@@ -13,6 +13,11 @@
 		"en": "English",
 		"it": "Italiano"
 	},
+	"theme": {
+		"toggle": "Changer de thème",
+		"light": "Clair",
+		"dark": "Sombre"
+	},
 	"hero": {
 		"titlePrefix": "Retrouvez votre",
 		"titleHighlight": "équilibre",
@@ -23,11 +28,11 @@
 	"about": {
 		"titlePrefix": "Mon",
 		"titleHighlight": "parcours",
-		"paragraph1": "D'origine sarde, après 17 ans à Paris comme masseur thérapeute, je suis revenu vivre en Sardaigne pour proposer un accompagnement plus proche et personnalisé.",
-		"paragraph2": "Je pratique des massages relaxants et thérapeutiques: shiatsu, deep tissue, reiki, fascia thérapie et d'autres techniques adaptées à chaque besoin.",
-		"paragraph3": "Avant chaque séance, j'échange avec vous et j'évalue les zones sensibles pour construire une approche ciblée et durable.",
-		"experience": "17+ ans d'expérience",
-		"credentialsTitle": "Formations et diplômes",
+		"paragraph1": "Masseur thérapeute d'origine sarde, j'accompagne depuis plus de 17 ans une clientèle exigeante avec une approche centrée sur la récupération, la mobilité et le bien-être durable.",
+		"paragraph2": "Mon parcours entre Paris et la Sardaigne m'a permis de développer une expertise complète, associant techniques manuelles, travail tissulaire profond et soins énergétiques adaptés à chaque profil.",
+		"paragraph3": "Chaque prise en charge débute par une évaluation personnalisée afin de proposer un protocole précis, sécurisé et orienté résultats, en cohérence avec vos objectifs de santé et de confort.",
+		"experience": "17+ ans d'expertise professionnelle",
+		"credentialsTitle": "Diplômes et certifications",
 		"credentials": {
 			"fasciaPractitioner": {
 				"title": "Titre de Fascia Practicien",

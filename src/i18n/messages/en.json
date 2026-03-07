@@ -13,6 +13,11 @@
 		"en": "English",
 		"it": "Italiano"
 	},
+	"theme": {
+		"toggle": "Switch theme",
+		"light": "Light",
+		"dark": "Dark"
+	},
 	"hero": {
 		"titlePrefix": "Restore your",
 		"titleHighlight": "balance",
@@ -23,11 +28,11 @@
 	"about": {
 		"titlePrefix": "My",
 		"titleHighlight": "background",
-		"paragraph1": "Originally from Sardinia, after 17 years in Paris as a therapeutic massage practitioner, I came back to Sardinia to offer more personalized care.",
-		"paragraph2": "I provide relaxing and therapeutic massages: shiatsu, deep tissue, reiki, fascia therapy, and other techniques adapted to each person.",
-		"paragraph3": "Before each session, I discuss your needs and assess sensitive areas to design a targeted and lasting approach.",
-		"experience": "17+ years of experience",
-		"credentialsTitle": "Training and qualifications",
+		"paragraph1": "As a Sardinian therapeutic massage practitioner with 17+ years of experience, I support clients with a results-driven approach focused on recovery, mobility, and long-term well-being.",
+		"paragraph2": "My career between Paris and Sardinia has built a complete skill set combining advanced manual techniques, deep tissue work, and energy-based care tailored to each client.",
+		"paragraph3": "Each session starts with a structured assessment to define a precise and safe treatment plan aligned with your health and performance goals.",
+		"experience": "17+ years of professional expertise",
+		"credentialsTitle": "Diplomas and certifications",
 		"credentials": {
 			"fasciaPractitioner": {
 				"title": "Fascia Practitioner qualification",

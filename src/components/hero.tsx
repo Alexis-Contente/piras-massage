@@ -15,7 +15,7 @@ export default function Hero() {
 	return (
 		<section
 			id="home"
-			className="min-h-screen pt-24 px-4 sm:px-6 lg:px-8 flex items-center justify-center bg-gradient-to-br from-background via-[#fef9fe] to-primary/5"
+			className="min-h-screen pt-24 px-4 sm:px-6 lg:px-8 flex items-center justify-center bg-gradient-to-br from-background via-[#fef9fe] to-primary/5 dark:via-secondary dark:to-primary/25"
 		>
 			<div className="max-w-4xl mx-auto text-center space-y-6 sm:space-y-8">
 				<h1 className="text-4xl sm:text-6xl lg:text-7xl font-light leading-tight text-balance">

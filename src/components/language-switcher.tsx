@@ -59,7 +59,7 @@ export default function LanguageSwitcher() {
 						className="fixed inset-0 z-40"
 						onClick={() => setIsOpen(false)}
 					/>
-					<div className="absolute right-0 top-full mt-2 bg-white border border-border rounded-lg shadow-lg z-50 min-w-[150px]">
+					<div className="absolute right-0 top-full mt-2 bg-card border border-border rounded-lg shadow-lg z-50 min-w-[150px]">
 						{languageCodes.map((code) => (
 							<button
 								key={code}
