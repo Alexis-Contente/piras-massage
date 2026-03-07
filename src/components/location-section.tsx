@@ -29,7 +29,7 @@ export default function LocationSection() {
 							</h3>
 
 							<div className="space-y-4">
-								<div className="flex gap-4">
+								<div className="flex gap-4 p-2 sm:p-2.5 rounded-lg">
 									<div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10">
 										<span className="text-lg">📍</span>
 									</div>
@@ -45,7 +45,7 @@ export default function LocationSection() {
 
 								<a
 									href={`tel:${contactInfo.phoneRaw}`}
-									className="flex gap-4 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+									className="flex gap-4 p-2 sm:p-2.5 rounded-lg border border-transparent hover:border-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
 								>
 									<div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10">
 										<span className="text-lg">📞</span>
@@ -62,7 +62,7 @@ export default function LocationSection() {
 
 								<a
 									href={`mailto:${contactInfo.email}`}
-									className="flex gap-4 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+									className="flex gap-4 p-2 sm:p-2.5 rounded-lg border border-transparent hover:border-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
 								>
 									<div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10">
 										<span className="text-lg">✉️</span>
