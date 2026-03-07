@@ -43,44 +43,42 @@ export default function LocationSection() {
 									</div>
 								</div>
 
+								<a
+									href={`tel:${contactInfo.phoneRaw}`}
+									className="flex gap-4 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+								>
+									<div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10">
+										<span className="text-lg">📞</span>
+									</div>
+									<div>
+										<p className="font-medium text-foreground">
+											{t("phoneLabel")}
+										</p>
+										<p className="text-foreground/70 text-sm">
+											{contactInfo.phoneDisplay}
+										</p>
+									</div>
+								</a>
+
+								<a
+									href={`mailto:${contactInfo.email}`}
+									className="flex gap-4 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+								>
+									<div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10">
+										<span className="text-lg">✉️</span>
+									</div>
+									<div>
+										<p className="font-medium text-foreground">
+											{t("emailLabel")}
+										</p>
+										<p className="text-foreground/70 text-sm">
+											{contactInfo.email}
+										</p>
+									</div>
+								</a>
 							</div>
 
-							<div className="mt-auto pt-6 space-y-5">
-								<div className="flex flex-col gap-3 sm:gap-4">
-									<a
-										href={`tel:${contactInfo.phoneRaw}`}
-										className="w-full rounded-xl bg-primary text-primary-foreground p-4 sm:p-5 hover:opacity-90 transition-opacity"
-									>
-										<div className="flex items-center gap-3 text-left">
-											<div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-lg bg-primary-foreground/15">
-												<span className="text-lg">📞</span>
-											</div>
-											<div>
-												<p className="font-semibold">{t("phoneLabel")}</p>
-												<p className="text-sm text-primary-foreground/85">
-													{contactInfo.phoneDisplay}
-												</p>
-											</div>
-										</div>
-									</a>
-									<a
-										href={`mailto:${contactInfo.email}`}
-										className="w-full rounded-xl bg-secondary text-secondary-foreground border border-primary/20 p-4 sm:p-5 hover:bg-secondary/80 transition-colors"
-									>
-										<div className="flex items-center gap-3 text-left">
-											<div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-lg bg-primary/10">
-												<span className="text-lg">✉️</span>
-											</div>
-											<div>
-												<p className="font-semibold">{t("emailLabel")}</p>
-												<p className="text-sm text-foreground/70">
-													{contactInfo.email}
-												</p>
-											</div>
-										</div>
-									</a>
-								</div>
-
+							<div className="mt-auto pt-6">
 								<div>
 									<p className="text-sm text-foreground/70 mb-3">
 										{tContact("followUs")}
